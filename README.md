@@ -24,8 +24,7 @@ This site showcases my skills, education, projects, and contact information as a
 
 ## Live Demo
 
-[View the Portfolio Website](https://emma234234.github.io/Digital-Bank-final-Project/)  
-*(Replace with your actual portfolio link if different)*
+[View the Portfolio Website](https://emma234234.github.io/Portfolio_Website/)
 
 ## Contact
 
@@ -34,12 +33,6 @@ This site showcases my skills, education, projects, and contact information as a
 - **Location:** Nairobi, Kenya
 - **LinkedIn:** [emmaculate-mumbua](https://linkedin.com/in/emmaculate-mumbua)
 - **GitHub:** [emma234234](https://github.com/emma234234)
-
-## How to Use
-
-1. Clone or download this repository.
-2. Open `index.html` in your browser to view the site locally.
-3. Customize content, styles, or add more sections as needed.
 
 ## License
 
