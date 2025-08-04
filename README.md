@@ -18,7 +18,7 @@ This site showcases my skills, education, projects, and contact information as a
 ## Technologies Used
 
 - HTML5
-- CSS3 (custom dark mode styling)
+- CSS3 
 - [Simple Icons](https://simpleicons.org/) for social media icons
 
 ## Live Demo
