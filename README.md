@@ -19,7 +19,6 @@ This site showcases my skills, education, projects, and contact information as a
 
 - HTML5
 - CSS3 (custom dark mode styling)
-- JavaScript (for interactivity, if added)
 - [Simple Icons](https://simpleicons.org/) for social media icons
 
 ## Live Demo
