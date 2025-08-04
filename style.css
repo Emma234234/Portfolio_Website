@@ -1,0 +1,210 @@
+body {
+  background: #181a20;
+  color: #e3e8ee;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: transparent;
+}
+
+/* Header */
+header {
+  background: #23263a;
+  color: #e3e8ee;
+  padding: 30px 0 10px 0;
+  border-bottom: 2px solid #1976d2;
+}
+header h1 {
+  color: #1976d2;
+  margin-bottom: 8px;
+}
+header p {
+  color: #b0b8c1;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #23263a;
+  border-bottom: 1px solid #1976d2;
+}
+nav ul li a {
+  color: #e3e8ee;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 12px 0;
+  transition: color 0.2s;
+}
+nav ul li a:hover {
+  color: #1976d2;
+}
+
+/* Section Headings */
+h2, h3 {
+  color: #1976d2;
+}
+
+/* Education Columns */
+.education-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.education-item {
+  flex: 1 1 220px;
+  background: #23263a;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(25, 118, 210, 0.08);
+  color: #e3e8ee;
+}
+
+/* Skills List */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+.skills-list li {
+  background: #1976d2;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.project-card {
+  flex: 1 1 350px;
+  background: #23263a;
+  border: 1px solid #1976d2;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.10);
+  color: #e3e8ee;
+}
+.project-card h3 {
+  margin-top: 0;
+  color: #1976d2;
+}
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #90caf9;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+.project-card a:hover {
+  color: #1976d2;
+}
+
+/* GitHub Link */
+.github-link a {
+  font-size: 1.1em;
+  color: #90caf9;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+.github-link a:hover {
+  color: #1970c6;
+}
+
+/* Contact Form */
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #1976d2;
+  border-radius: 6px;
+  font-size: 1em;
+  background: #23263a;
+  color: #e3e8ee;
+}
+form button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+form button:hover {
+  background: #1565c0;
+}
+
+/* Social Icons */
+ul.social {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+ul.social li a img {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 50%;
+  background: #23263a;
+  padding: 4px;
+  border: 1px solid #1976d2;
+}
+ul.social li a:hover img {
+  transform: scale(1.15);
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.15);
+  background: #1976d2;
+}
+
+/* Connect With Me */
+#socials.container {
+  max-width: 300px;
+  margin: 30px auto 0 auto !important;
+  padding: 12px 0;
+}
+#socials h2 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+ul.social {
+  gap: 12px;
+}
+ul.social li a img {
+  width: 28px;
+  height: 28px;
+  padding: 2px;}
+
+/* Footer */
+footer {
+  background: #23263a;
+  padding: 30px 0 10px 0;
+  text-align: center;
+  border-top: 2px solid #1976d2;
+  margin-top: 40px;
+}
+footer p {
+  color: #b0b8c1;
+  font-size: 1em;
+  margin-top: 18px;
+  text-align: center;
+}
